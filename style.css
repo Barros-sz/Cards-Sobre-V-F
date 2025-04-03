@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Antique';
+    src: url('Antique.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+body{
+background-image: url(https://wallpapers.com/images/hd/jdm-cars-fast-and-furious-desktop-l0nafl5wgvxclq8w.jpg);
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+font-family: 'Antique';
+}
+
+header{
+font-family: 'Antique';
+background-color: rgba(0, 0, 176, 0.8);
+text-align: center;
+align-content: center;
+font-size: 30px;
+font-family:'Antique';
+padding-bottom: 20px;
+}
+main{
+flex: 1;
+display: flex;
+flex-direction: row;
+justify-content:space-around ;
+padding:30px;
+flex-wrap: wrap;
+gap: 20px;
+}
+div.casa{
+    background-color: rgba(0, 0, 176, 0.8);
+text-align: left;
+align-content: center;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 0px;
+}
+/* card */
+.card{
+    margin-bottom: 20px;
+    width: 270px;
+    height: 450px;
+    background-color:  rgba(192, 192, 192, 0.9);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    background-color:  rgb(192, 192, 192);
+    box-shadow: none;
+}
+
+.card h2{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    opacity: 100%;
+    font-family: 'Antique';
+}
+
+.card img{
+    width:250px;
+    height: 175px;
+}
+
+footer{
+height: 50px;
+background-color: rgba(0, 0, 99, 0.8);
+color: aliceblue;
+align-content: center;
+font-size: 25px;
+text-align: center;
+}
+
+.card:hover:scale
+
